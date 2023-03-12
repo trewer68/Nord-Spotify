@@ -872,7 +872,7 @@ async function initNord() {
                 external: true,
                 bool: userConfig.color_scheme === "Dynamic",
                 onClickEditFun: () => {
-                    window.open("https://github.com/Tetrax-10/Nord-Spotify#save-any-dynamic-theme-to-your-theme-library");
+                    window.open("https://github.com/trewer68/Nord-Spotify#save-any-dynamic-theme-to-your-theme-library");
                 },
             }),
             React.createElement("div", { className: "popup-row" }, React.createElement("h3", { className: "div-title" }, "Color Scheme Details")),
@@ -1317,7 +1317,7 @@ async function initNord() {
                 React.createElement(
                     "a",
                     {
-                        href: "https://github.com/Tetrax-10/Nord-Spotify#custom-fonts",
+                        href: "https://github.com/trewer68/Nord-Spotify#custom-fonts",
                         className: "demo",
                     },
                     "Click for Tutorial"
@@ -1533,7 +1533,7 @@ async function initNord() {
             check: false,
             external: true,
             onClickEditFun: () => {
-                window.open("https://github.com/Tetrax-10/Nord-Spotify#how-to-reposition-banner-");
+                window.open("https://github.com/trewer68/Nord-Spotify#how-to-reposition-banner-");
             },
         }),
         React.createElement(checkBoxItem, {
@@ -1799,7 +1799,7 @@ async function initNord() {
         React.createElement(ButtonItem, {
             name: "Like on GitHub 👍",
             onclickFun: () => {
-                window.open("https://github.com/Tetrax-10/Nord-Spotify");
+                window.open("https://github.com/trewer68/Nord-Spotify");
             },
         }),
         React.createElement(ButtonItem, {
