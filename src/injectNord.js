@@ -39,7 +39,7 @@
         }
     }
 
-    let server = "https://tetrax-10.github.io/Nord-Spotify";
+    let server = "https://raw.githubusercontent.com/trewer68/Nord-Spotify/master";
 
     injectStyleSheet(`${server}/src/nord.css`, "nord--nordSpotify");
 
