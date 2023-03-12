@@ -37,7 +37,7 @@ async function initNord() {
 
     let isWindows = os("Win");
 
-    let server = "https://tetrax-10.github.io/Nord-Spotify";
+    let server = "https://raw.githubusercontent.com/trewer68/Nord-Spotify/master";
 
     let isMarketplace = userConfig.current_theme == "Nord Spotify" ? true : false;
 
