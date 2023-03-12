@@ -6,7 +6,7 @@
         "readme": "README.md",
         "usercss": "Nord-Spotify/user.css",
         "schemes": "Nord-Spotify/color.ini",
-        "include": ["https://raw.githubusercontent.com/Tetrax-10/Nord-Spotify/master/src/injectNord.js"],
+        "include": ["https://raw.githubusercontent.com/trewer68/Nord-Spotify/master/src/injectNord.js"],
         "tags": ["Nord", "Dark"]
     }
 ]
