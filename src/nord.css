@@ -356,7 +356,7 @@ div.main-rootlist-wrapper > div:nth-child(2) > div .main-trackList-rowTitle.stan
 
 /* playlist very few songs extra space below the songs */
 .main-actionBarBackground-background {
-    height: -webkit-fill-available !important;
+    height: unset !important;
     display: unset !important;
     background-color: var(--spice-main) !important;
     background-image: unset !important;
