@@ -61,9 +61,9 @@ if ($PSVersionTable.PSVersion.Major -gt $PSMinVersion) {
         
         # Clone to themes folder
         Write-Host "Fetching Theme from GitHub" -ForegroundColor DarkCyan
-        Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Tetrax-10/Nord-Spotify/master/Nord-Spotify/color.ini" -UseBasicParsing -OutFile "$themePath\Nord-Spotify\color.ini"
-        Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Tetrax-10/Nord-Spotify/master/Nord-Spotify/user.css" -UseBasicParsing -OutFile "$themePath\Nord-Spotify\user.css"
-        Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Tetrax-10/Nord-Spotify/master/src/injectNord.js" -UseBasicParsing -OutFile "$extensionsPath\injectNord.js"
+        Invoke-WebRequest -Uri "https://raw.githubusercontent.com/trewer68/Nord-Spotify/master/Nord-Spotify/color.ini" -UseBasicParsing -OutFile "$themePath\Nord-Spotify\color.ini"
+        Invoke-WebRequest -Uri "https://raw.githubusercontent.com/trewer68/Nord-Spotify/master/Nord-Spotify/user.css" -UseBasicParsing -OutFile "$themePath\Nord-Spotify\user.css"
+        Invoke-WebRequest -Uri "https://raw.githubusercontent.com/trewer68/Nord-Spotify/master/src/injectNord.js" -UseBasicParsing -OutFile "$extensionsPath\injectNord.js"
 
         # Installing
         Write-Host "Changing Config" -ForegroundColor DarkCyan
@@ -76,12 +76,12 @@ if ($PSVersionTable.PSVersion.Major -gt $PSMinVersion) {
 
         Write-Host "Fetching Theme from GitHub" -ForegroundColor DarkCyan
         # Clone to assets folder
-        Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Tetrax-10/Nord-Spotify/master/src/Snippets/NewUI.css" -UseBasicParsing -OutFile "$snippetsPath\NewUI.css"
-        Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Tetrax-10/Nord-Spotify/master/src/Snippets/OldUI.css" -UseBasicParsing -OutFile "$snippetsPath\OldUI.css"
+        Invoke-WebRequest -Uri "https://raw.githubusercontent.com/trewer68/Nord-Spotify/master/src/Snippets/NewUI.css" -UseBasicParsing -OutFile "$snippetsPath\NewUI.css"
+        Invoke-WebRequest -Uri "https://raw.githubusercontent.com/trewer68/Nord-Spotify/master/src/Snippets/OldUI.css" -UseBasicParsing -OutFile "$snippetsPath\OldUI.css"
         # Clone to themes folder
-        Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Tetrax-10/Nord-Spotify/master/Nord-Spotify/color.ini" -UseBasicParsing -OutFile "$themePath\Nord-Spotify\color.ini"
-        Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Tetrax-10/Nord-Spotify/master/src/nord.css" -UseBasicParsing -OutFile "$themePath\Nord-Spotify\user.css"
-        Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Tetrax-10/Nord-Spotify/master/src/nord.js" -UseBasicParsing -OutFile "$extensionsPath\nord.js"
+        Invoke-WebRequest -Uri "https://raw.githubusercontent.com/trewer68/Nord-Spotify/master/Nord-Spotify/color.ini" -UseBasicParsing -OutFile "$themePath\Nord-Spotify\color.ini"
+        Invoke-WebRequest -Uri "https://raw.githubusercontent.com/trewer68/Nord-Spotify/master/src/nord.css" -UseBasicParsing -OutFile "$themePath\Nord-Spotify\user.css"
+        Invoke-WebRequest -Uri "https://raw.githubusercontent.com/trewer68/Nord-Spotify/master/src/nord.js" -UseBasicParsing -OutFile "$extensionsPath\nord.js"
 
         # Installing
         Write-Host "Changing Config" -ForegroundColor DarkCyan
