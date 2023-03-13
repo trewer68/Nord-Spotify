@@ -14,7 +14,7 @@
 
     let body = document.querySelector("body");
 
-    let isMarketplace = Spicetify.Config.current_theme == "Nord Spotify" ? true : false;
+   // let isMarketplace = Spicetify.Config.current_theme == "Nord Spotify" ? true : false;
 
     function injectStyleSheet(src, id) {
         if (!body.classList.contains(id)) {
